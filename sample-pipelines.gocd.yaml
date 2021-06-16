@@ -20,7 +20,7 @@ pipelines:
   action-movies-manual:
     group: movies
     materials:
-      action:
+      action-manual:
         plugin_configuration:
           id: git-path
         options:
